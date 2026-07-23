@@ -67,6 +67,7 @@ section {
     background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
         url("https://thumbs.dreamstime.com/b/cantante-5385854.jpg") center/cover no-repeat;
     color: white;
+
 }
 
 #inicio figure {
@@ -87,7 +88,7 @@ section {
     font-size: 1.3rem;
 }
 
-#inicio a {
+#inicio .btn {
     text-decoration: none;
     color: white;
     background: #d4af37;
@@ -95,6 +96,11 @@ section {
     border-radius: 50px;
     transition: 0.3s;
 }
+
+#inicio .btn:hover {
+    background: white;
+    color: black;
+}git
 
 #inicio a:hover {
     background: white;
